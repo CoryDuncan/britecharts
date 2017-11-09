@@ -548,10 +548,10 @@ define(function(require){
                     .text(xAxisLabel);
             }
 
-            let yAxisContainer = svg.select('.y-axis-group .axis.y')
+            let yAxisContainer = svg.select('.y-axis-group .axis.y');
 
             if (!document.hidden) {
-              yAxisContainer = yAxisContainer.transition().ease(ease)
+              yAxisContainer = yAxisContainer.transition().ease(ease);
             }
 
             yAxisContainer
